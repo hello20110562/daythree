@@ -9,12 +9,13 @@ public class ArrayTest{
 		
 		//初始化：在堆空间
 		arr=new int [10];
-		arr1={1,2,3,4};
+		arr1=new int[]{1,2,3,4};
 		
 		//声明加初始化同时进行
 		String [] str =new String[5];//默认初始化
 		int[] arrInt =new int[]{123,234,345};
 		String [] IT= new String[]{"Java","C++","Android"};
 		String [] IT1=            {"Java","C++","Android"};
+		System.out.println(""+arrInt);
 	}
 }
